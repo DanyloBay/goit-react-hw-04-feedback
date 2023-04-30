@@ -1,0 +1,31 @@
+.feedbackButtonsItem
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedbackBtns{
+    cursor: pointer;
+    border: none;
+    background-color: rgb(169, 137, 137);
+    color: rgb(210, 186, 186);
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 7px rgba(170, 157, 157, 0.722);
+    transition: background-color 250ms ease-in-out, 
+    color 250ms ease-in-out;
+}
+
+.feedbackBtns:first-child:hover{
+    background-color: rgba(0, 255, 0, 0.511);
+    color: #00e100;
+}
+
+.feedbackBtns:nth-child(0n+2):hover{
+    color: rgb(255, 232, 232);
+}
+
+.feedbackBtns:last-child:hover {
+    background-color: rgba(255, 0, 0, 0.511);
+    color: red;
+}
